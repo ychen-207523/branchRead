@@ -47,3 +47,5 @@ For this project, I am using the latest version available, which is LLVM-18.
     2.  `lli test2-2.bc`
 5. The dictionary.txt file that contains all the branches will also be generated when transforming the bc file with the new pass in the testfile folder.
 
+## Remain issue
+Currently, there are still some segmentation errors related with the inner loop and more complicated conditions.
